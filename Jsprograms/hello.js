@@ -94,7 +94,7 @@
 // coverttemp();
 
 
-//Js program to check is a number is positive, 
+//Js program to check if a number is positive, 
 //negative or zero
 //using math.sign() method
 
@@ -146,20 +146,9 @@
 // checkmax(2, 4, 6);
 
 
-//JS program to find a factorial of a number
-//factorial: is the product of all the numbers from 
-//1 to that number. eg factorial of  4 is 1*2*3*4 = 
-//24
 
-//what is recursion:
-//the process in which a function calls itself directly or indirectly is called recursion and the function is called recursive function.
-//eg
-//function recur(){
- //   if(condition){
- //   return 
- //}
- //recur();
-//}
+
+
 
 
 
