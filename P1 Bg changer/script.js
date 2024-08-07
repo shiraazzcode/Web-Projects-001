@@ -6,26 +6,19 @@
 let color = document.getElementById("color");
 let btn = document.getElementById("btn");
 
-
-//Add event listener to the button.
-//To do this, first create an array of colors
-
-
 //Array of colors
 let colors = ['Red', 'Blue', 'Orange', 'Yellow', 'Brown', 'Magenta', 'Green', 'Black',];
 
-
 btn.addEventListener("click", function(){
-    let ColorNow = colors[randomColor()];
+    let ColorNow = colors[randomNumber()];
     document.body.style.backgroundColor = ColorNow;
     color.innerHTML = ColorNow;
     color.style.color = ColorNow;
     document.getElementById("heading").style.color = ColorNow;
 });
  
-
-//function that choose random color when called.
-function randomColor(){
+//function that choose random color number
+function randomNumber(){
     //using math random method
     let num = Math.random() * colors.length;
     let rnum = Math.floor(num);
